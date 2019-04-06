@@ -44,6 +44,8 @@
 			<li>list item 3</li>
 			<li>list item 4</li>
 
+		</ol>
+
 		<!--tables -->
 		<br>
 		<table>
@@ -74,7 +76,51 @@
 				</tbody>
 		</table>
 
-		</ol>
+		<br>
+
+		<hr>
+
+		<!--form -->
+
+		<form action="process.php" method="POST">
+			
+			<div>
+				<label>First Name</label>
+				<input type="text" name="firstName">
+			</div>
+
+			<br>
+
+			<div>
+				<label>Last Name</label>
+				<input type="text" name="lastName">
+			</div>
+
+			<br>
+			<div>
+				<label>Email</label>
+				<input type="email" name="email">
+			</div>
+
+			<br>
+			<div>
+				<label>Message</label>
+				<textarea name="message"></textarea>
+			</div>
+
+			<div>
+				<label>Gender</label>
+				<select name="gender">
+					<option value="male">Male</option>
+					<option value="female">Female</option>
+					<option value="other">Other</option>
+				</select>
+			</div>
+
+
+
+		</form>
+		<div style="margin-top:500px"></div>
 	</body>
 </html>
 

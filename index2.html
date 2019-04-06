@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head >
+		<title>Forms</title>
+	</head>
+	<body>
+		<table>
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Email</th>
+					<th>Age</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Prashant Singh</td>
+					<td>abc@gmail.com</td>
+					<td>23</td>
+				</tr>
+				<tr>
+					<td>ismail darbar</td>
+					<td>efg@gmail.com</td>
+					<td>45</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<br>
+		<form action="process.php" method="GET">
+			<div>
+			<label>First Name</label>
+			<input type="text" name="firstName">
+			</div>
+
+			<br>
+			<div>
+			<label>Last Name</label>
+			<input type="text" name="lastName">
+			</div>
+
+			<br>
+			<label>Email</label>
+			<input type="email" name="email">
+
+			<br>
+			<br>
+			<label>Message</label>
+			<textarea name="message"></textarea>
+		</form>
+	</body>
+</html>
