@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Survey</title>
+</head>
+<body>
+	<h1 style="color:brown">Fill the Form</h1>
+	<form action="process.php" method="post">
+		<label>Enter Name</label>
+			<input type="text" name="name" placeholder="Enter Your Name">
+
+		<br>
+		<br>
+		
+		<label>Enter Age</label>
+			<input type="placeholder" name="age" placeholder="Enter Age">
+		
+		<br>
+		<br>
+
+		<label>Enter Birth Date</label>
+			<input type="date" name="birthday" placeholder="dd/mm/yyyy">
+
+		<br>
+		<br>
+		<div>
+			<label>Department</label>
+			<select name="dept">
+				<option value="science">Science</option>
+				<option value="commerce">Commerce</option>
+				<option value="arts">Arts</option>
+			</select>
+		</div>
+		<br>
+		<div>
+			<label>Enter Gender</label> <br>
+			<input type="radio" name="gender">Male <br>
+			<input type="radio" name="gender">Female <br>
+			<input type="radio" name="gender">Other <br>
+		</div>
+
+		<br>
+		<label>Any Suggestions?</label>	<br>
+			<textarea name="message" placeholder="type your suggestions"></textarea>
+
+		<br>
+		<br>
+		<div>
+			<input type="submit" value="Submit">
+			<input type="reset" >
+		</div>
+
+	</form>
+</body>
